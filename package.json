@@ -1,0 +1,29 @@
+{
+    "name": "api-merkletree",
+    "version": "1.0.0",
+    "repository": "https://github.com/web3-literally/Api-MerkleTree.git",
+    "author": "web3-literally",
+    "license": "MIT",
+    "scripts": {
+        "serve": "nodemon app.ts"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.14",
+        "@types/node": "^18.11.11",
+        "nodemon": "^2.0.20",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.3"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.1",
+        "connect-flash": "^0.1.1",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "csv-parse": "^5.3.3",
+        "ethereumjs-util": "^7.1.5",
+        "ethers": "^5.7.2",
+        "express": "^4.18.2",
+        "express-fileupload": "^1.4.0",
+        "method-override": "^3.0.0"
+    }
+}
